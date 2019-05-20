@@ -1,0 +1,2 @@
+# plain-octopod
+Octopod installation
