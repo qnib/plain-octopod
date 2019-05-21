@@ -8,4 +8,4 @@ COPY . /opt/octopod
 WORKDIR /opt/octopod
 RUN apt-get install -y gcc git
 RUN bundle install
-RUN git clone -b v2.0.17 https://github.com/podlove/podlove-web-player.git /opt/octopod/podlove-web-player
+RUN git clone -b v4.2.4 https://github.com/podlove/podlove-web-player.git /opt/octopod/podlove-web-player
